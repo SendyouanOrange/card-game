@@ -10,7 +10,8 @@
       <el-menu-item index="1">Home</el-menu-item>
       <el-submenu index="2" class="pull-right">
         <template slot="title">{{user.username}}</template>
-        <el-menu-item index="2-1">logout<i class="el-icon-circle-close-outline"></i></el-menu-item>
+        <el-menu-item index="2-1">info<i class="el-icon-circle-close-outline"></i></el-menu-item>
+        <el-menu-item index="2-2">logout<i class="el-icon-circle-close-outline"></i></el-menu-item>
         <!-- <el-menu-item index="2-2">选项2</el-menu-item> -->
       </el-submenu>
     </el-menu>
