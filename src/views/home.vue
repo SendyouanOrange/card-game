@@ -23,7 +23,7 @@ export default {
   data() {
     return {
       user:{
-        username:'admin',
+        username:'adm',
       },
       activeIndex: "1",
     };
